@@ -21,10 +21,12 @@ typedef	struct
 	volatile u32 CNT;
 	volatile u32 PSC;
 	volatile u32 ARR;
+	volatile u32 RESERVED_1;
 	volatile u32 CCR1;						//capture/compare mode register
 	volatile u32 CCR2;
 	volatile u32 CCR3;
 	volatile u32 CCR4;
+	volatile u32 RESERVED_2;
 	volatile u32 DCR;
 	volatile u32 DMAR;
 	volatile u32 OR;
